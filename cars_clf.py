@@ -7,6 +7,7 @@ def get_type(type_id):
     elif type_id == 1:
         return "minivan"
 
+# horsepowers, seats
 features = [[300, 2], [450, 2], [200, 8], [150, 9]]
 # 0 - sports-car, 1 - minivan
 labels = [0, 0, 1, 1]
